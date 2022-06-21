@@ -1,0 +1,61 @@
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.App .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.todo_list{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.todo{
+    width: 50%;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.todo img{
+    width: 40px;
+}
+.todo p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.todo >div{
+    display: flex;
+    align-items: center;
+}
+
+.todo button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.input input{
+    width: 600px;
+    padding: 10px;
+}
+
+.input input[type="button"]{
+    width: 100px;
+    cursor: pointer;
+}
